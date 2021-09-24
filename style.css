@@ -1,0 +1,90 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: burlywood;
+}
+.profile-image{
+    width: 5%;
+    height: 80px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;    
+}
+.drop-menu{
+    width: 15%;
+    padding: 5px;
+    background-color: #fff;
+    position: relative;
+    left: 36.5%;
+    text-align: left;
+}
+.sign-in{
+    width: 100%;
+    height: 50px;
+}
+.sign-in > a{
+    display: block;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    line-height: 50px;
+}
+.sign-in a::after{
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    background-color: cornflowerblue;
+    position: absolute;
+    top:50px;
+    left:0;
+}
+.sign-in > a:hover{
+    background-color: darkgreen;
+    color: #fff;
+}
+.drop-menu > .category{
+    width: 100%;
+}
+.drop-menu .category ul{
+    width: 100%;
+   
+}
+.category ul::after{
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    background-color: cornflowerblue;
+}
+.category ul:last-child:after{
+    content: "";
+    display: none;
+}
+.drop-menu .category ul li{
+    width: 100%;
+    height: 50px;
+}
+.drop-menu .category ul li a{
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+.drop-menu .category ul li a:hover{
+    background-color: darkgreen;
+    color: #fff;
+}
